@@ -1,0 +1,10 @@
+if __name__ == '__main__':
+    x = int(input())
+    y = int(input())
+    z = int(input())
+    n = int(input())
+    
+    print([[val1,val2,val3] for val1 in range(x+1) for val2 in range(y+1) for val3 in range(z+1) if val1 + val2 + val3 != n])
+    
+
+    
