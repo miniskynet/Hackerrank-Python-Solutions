@@ -29,4 +29,9 @@ Power - Mod Power - https://www.hackerrank.com/challenges/python-power-mod-power
 
 Integers Come In All Sizes - https://www.hackerrank.com/challenges/python-integers-come-in-all-sizes/problem
 
+Nested Lists - https://www.hackerrank.com/challenges/nested-list/problem
+
+Finding the percentage - https://www.hackerrank.com/challenges/finding-the-percentage/problem
+
+Lists - https://www.hackerrank.com/challenges/python-lists/problem
 
