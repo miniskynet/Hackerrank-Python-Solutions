@@ -1,0 +1,56 @@
+scores = []
+names = []
+if __name__ == '__main__':
+    for _ in range(int(input())):
+        name = input()
+        score = float(input())
+        scores.append(score)
+        names.append(name)
+
+smallest = min(scores)
+smallest_index = scores.index(smallest)
+
+while smallest == min(scores):
+    scores.remove(min(scores))
+    names.remove(names[smallest_index])
+   
+if len(names) == 1:
+    print(names[0])
+
+else:
+    
+    count = 0
+    i = -1
+    for score in scores:
+        if score == scores[i]:
+            count += 1
+            i += 1
+            
+    if count == len(scores):
+        S = sorted(names)
+        for name in S:  
+            print(name)
+            
+    elif count == 0:           
+        print(names[0])
+    
+    else:
+        second_smallest = min(scores)
+
+        indx_list = []
+        for i in range(len(scores)):
+            if scores[i] != second_smallest:
+                indx = scores.index(scores[i])
+                indx_list.append([indx])
+        
+        val = -1
+        for i in range(len(indx_list)):
+            indx = int(indx_list[val][0])
+            names.remove(names[indx])
+            val -= 1
+
+            
+        S = sorted(names)
+        for name in S:
+            print(name)
+           
