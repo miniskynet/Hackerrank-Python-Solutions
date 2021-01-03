@@ -35,3 +35,14 @@ Finding the percentage - https://www.hackerrank.com/challenges/finding-the-perce
 
 Lists - https://www.hackerrank.com/challenges/python-lists/problem
 
+Mutations - https://www.hackerrank.com/challenges/python-mutations/problem
+
+Find a string - https://www.hackerrank.com/challenges/find-a-string/problem
+
+String Validators - https://www.hackerrank.com/challenges/string-validators/problem
+
+Text Alignment - https://www.hackerrank.com/challenges/text-alignment/problem
+
+Text Wrap - https://www.hackerrank.com/challenges/text-wrap/problem
+
+Capitalize! - https://www.hackerrank.com/challenges/capitalize/problem
