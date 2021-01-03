@@ -1,0 +1,8 @@
+def solve(s):
+    new_ls = []
+    s_ls = s.split(" ")
+    for i in range(len(s_ls)):
+        new_ls.append(s_ls[i].capitalize())
+    new_str = " ".join(new_ls)
+
+    return(new_str)
