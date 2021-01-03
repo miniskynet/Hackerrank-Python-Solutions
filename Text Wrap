@@ -1,0 +1,18 @@
+def wrap(string, max_width):
+    remainder = len(string)%max_width
+    i = 0
+    j = max_width
+    slice_ls = ""
+
+    if remainder == 0:
+        for _ in range(int(len(string)/j)):  
+            slice_ls += (string[_:(i*j)+j]) + "\n"
+            i += j
+    else:
+        for _ in range (int((len(string)-remainder)/j)):
+            slice_ls += (string[i:(_*j)+j]) + "\n"
+            i += j
+        remaining = (string[int((len(string)-remainder)):int(len(string))])
+        slice_ls += (remaining)
+              
+    return slice_ls
